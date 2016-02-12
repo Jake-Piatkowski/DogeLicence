@@ -48,11 +48,29 @@ ul {
 	background-color: pink;
 }
 
+.container .pre_footer {
+	
+	width: 100%;
+	padding-top: 3px;
+	background-color: DarkGreen;
+	display: inline-block;
+}
+
 .container .footer {
 	
+	width: 100%;
 	text-align: center;
+	display: inline-block;
 	vertical-align: middle;
-	padding-bottom: 30px;
-	padding-top: 30px;
-	background-color: yellow;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background-color: olivedrab;
+}
+
+
+
+p {
+	
+	margin: 0;
+	padding: 0;
 }
