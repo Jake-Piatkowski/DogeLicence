@@ -36,7 +36,7 @@ ul {
 	
 	height: 60px;
 	width: 25%;
-	background-color: linen;
+	background-color: #69a84d;
 	float: left;
 	list-style-type: none;
 	padding: 0;
@@ -56,7 +56,7 @@ ul {
 	display: inline-block;
 }
 
-.container .footer {
+.container div.footer {
 	
 	width: 100%;
 	text-align: center;
@@ -64,12 +64,10 @@ ul {
 	vertical-align: middle;
 	padding-bottom: 15px;
 	padding-top: 15px;
-	background-color: olivedrab;
+	background-color: #69a84d;
 }
 
-
-
-p {
+.container div.footer p {
 	
 	margin: 0;
 	padding: 0;
