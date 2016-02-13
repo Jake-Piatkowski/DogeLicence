@@ -54,8 +54,8 @@ p {
 	background-color: #69a84d;
 	float: left;
 	list-style-type: none;
-	padding: 0;
-	margin: 0;
+	font-family: "Comic Sans MS";
+	font-size: 25px;
 }
 
 .container div.main {
