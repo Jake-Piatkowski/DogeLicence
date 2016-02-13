@@ -48,11 +48,11 @@ p {
 	text-align: center;
 }
 
-.container li.menu_button {
+.container .menu li.menu_button {
 	
 	height: 60px;
 	line-height: 60px;
-	width: 25%;
+	width: 298.5px;
 	background-color: #69a84d;
 	float: left;
 	list-style-type: none;
@@ -64,6 +64,15 @@ p {
     -1px 1px 0 #ffffff,
     1px 1px 0 #ffffff;
 	font-weight: bolder;
+}
+
+.container .menu li.menu_divider {
+	
+	height: 60px;
+	width: 2px;
+	list-style-type: none;
+	background-color: #ffffff;
+	float: left;
 }
 
 .container div.main {
