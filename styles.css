@@ -45,22 +45,25 @@ p {
 	
 	padding: 0;
 	margin: 0;
+	text-align: center;
 }
 
 .container li.menu_button {
 	
 	height: 60px;
+	line-height: 60px;
 	width: 25%;
 	background-color: #69a84d;
 	float: left;
 	list-style-type: none;
 	font-family: "Comic Sans MS";
-	font-size: 25px;
+	font-size: 35px;
 	text-shadow:
     -1px -1px 0 #ffffff,
     1px -1px 0 #ffffff,
     -1px 1px 0 #ffffff,
     1px 1px 0 #ffffff;
+	font-weight: bolder;
 }
 
 .container div.main {
