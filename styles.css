@@ -41,7 +41,7 @@ p {
 	height: 60px;
 }
 
-ul {
+.container .menu ul {
 	
 	padding: 0;
 	margin: 0;
