@@ -21,9 +21,18 @@ body {
 	
 }
 
+.container div.pre_menu {
+	
+	padding-top: 3px;
+	padding-bottom: 3px;
+	height: 60px;
+	background-color: DarkGreen;
+}
+
 .container div.menu {
 	
 	background-color: green;
+	height: 60px;
 }
 
 ul {
