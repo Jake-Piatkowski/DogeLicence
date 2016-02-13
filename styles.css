@@ -3,6 +3,12 @@ body {
 	margin: 0;
 }
 
+p {
+	
+	margin: 0;
+	padding: 0;
+}
+
 .container {
 	
 	background-color: red;
@@ -21,26 +27,43 @@ body {
 	
 }
 
+.container div.pre_menu {
+	
+	padding-top: 3px;
+	padding-bottom: 3px;
+	height: 60px;
+	background-color: DarkGreen;
+}
+
 .container div.menu {
 	
 	background-color: green;
+	height: 60px;
 }
 
-ul {
+.container .menu ul {
 	
 	padding: 0;
 	margin: 0;
+	text-align: center;
 }
 
 .container li.menu_button {
 	
 	height: 60px;
+	line-height: 60px;
 	width: 25%;
 	background-color: #69a84d;
 	float: left;
 	list-style-type: none;
-	padding: 0;
-	margin: 0;
+	font-family: "Comic Sans MS";
+	font-size: 35px;
+	text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+	font-weight: bolder;
 }
 
 .container div.main {
@@ -69,6 +92,6 @@ ul {
 
 .container div.footer p {
 	
-	margin: 0;
-	padding: 0;
+	font-family: verdana;
+	font-size: 10px;
 }
