@@ -56,6 +56,11 @@ p {
 	list-style-type: none;
 	font-family: "Comic Sans MS";
 	font-size: 25px;
+	text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
 }
 
 .container div.main {
