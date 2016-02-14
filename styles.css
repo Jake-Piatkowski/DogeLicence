@@ -79,6 +79,12 @@ p {
 	padding-left: 100px;
 }
 
+.container div.main p {
+	
+	font-family: verdana;
+	font-size: 18px;
+}
+
 .container .pre_footer {
 	
 	width: 100%;
