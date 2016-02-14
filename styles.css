@@ -51,14 +51,6 @@ p {
 	background-color: #69a84d;
 	float: left;
 	list-style-type: none;
-	font-family: "Comic Sans MS";
-	font-size: 35px;
-	text-shadow:
-    -1px -1px 0 #ffffff,
-    1px -1px 0 #ffffff,
-    -1px 1px 0 #ffffff,
-    1px 1px 0 #ffffff;
-	font-weight: bolder;
 }
 
 .container .menu li.menu_divider {
@@ -77,7 +69,42 @@ p {
 	float: left;
 	color: inherit;
 	text-decoration: inherit;
+	font-family: "Comic Sans MS";
+	font-size: 35px;
+	text-shadow:
+		-1px -1px 0 #ffffff,
+		1px -1px 0 #ffffff,
+		-1px 1px 0 #ffffff,
+		1px 1px 0 #ffffff;
+	font-weight: bolder;
 }
+
+.container .menu li.menu_button a.current {
+	
+	text-decoration: underline;
+}
+
+.container .menu li.menu_button a:hover {
+	
+	background-color: #2b4620;
+	font-size: 30px;
+	animation-name: menu_hover;
+    animation-duration: 0.4s;
+}
+
+@keyframes menu_hover {
+	
+    from {
+		
+		background-color: inherit;
+		font-size: 35px;
+	}
+    to {
+		background-color: #2b4620;
+		font-size: 30px;
+	}
+}
+
 .container div.main {
 	
 	background-color: pink;
