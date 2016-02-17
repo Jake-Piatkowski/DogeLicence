@@ -1,6 +1,6 @@
 body {
 	
-    background-color: gray;
+    background-color: #eee;
 	margin: 0;
 }
 
@@ -112,7 +112,7 @@ p {
 
 .container div.main {
 	
-	background-color: pink;
+	background-color: #d9f2d9;
 	padding-top: 50px;
 	padding-right: 100px;
 	padding-bottom: 50px;
