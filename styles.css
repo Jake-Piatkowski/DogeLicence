@@ -25,7 +25,8 @@ p {
 	height: 381px;
 	background-image: url("images/header.png");
 	background-position: center;
-	background-repeat: none;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
 }
 
 .container div.pre_menu {
@@ -121,6 +122,14 @@ p {
 
 .container div.main p {
 	
+	font-family: verdana;
+	font-size: 18px;
+}
+
+.container div.main a {
+	
+	color: inherit;
+	text-decoration: inherit;
 	font-family: verdana;
 	font-size: 18px;
 }
