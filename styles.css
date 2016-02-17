@@ -25,7 +25,8 @@ p {
 	height: 381px;
 	background-image: url("images/header.png");
 	background-position: center;
-	background-repeat: none;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
 }
 
 .container div.pre_menu {
