@@ -52,7 +52,7 @@ p {
 	
 	height: 60px;
 	line-height: 60px;
-	width: 298.5px;
+	width: 398.67px; /* (1200 - 2 * 3) / 4 */
 	background-color: #69a84d;
 	float: left;
 	list-style-type: none;
