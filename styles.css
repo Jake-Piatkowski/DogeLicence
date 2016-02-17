@@ -1,5 +1,6 @@
 body {
-    background-color: gray;
+	
+    background-color: #eee;
 	margin: 0;
 }
 
@@ -13,6 +14,10 @@ p {
 	
 	width: 1200px;
 	margin: auto;
+	background-color: #003300;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
 }
 
 .container div.header {
@@ -107,7 +112,7 @@ p {
 
 .container div.main {
 	
-	background-color: pink;
+	background-color: #d9f2d9;
 	padding-top: 50px;
 	padding-right: 100px;
 	padding-bottom: 50px;
