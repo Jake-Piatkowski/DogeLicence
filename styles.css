@@ -124,11 +124,11 @@ p {
 	padding-right: 100px;
 	padding-bottom: 50px;
 	padding-left: 100px;
+	font-family: verdana;
 }
 
 .container div.main p {
 	
-	font-family: verdana;
 	font-size: 18px;
 }
 
@@ -138,6 +138,18 @@ p {
 	text-decoration: inherit;
 	font-family: verdana;
 	font-size: 18px;
+}
+
+.container  div.main pre.licence_content {
+	
+	margin: 0;
+	width: 600px;
+}
+
+.container  div.main pre.licence_content ol {
+	
+	padding: 0;
+	margin: 0;
 }
 
 /* END - Main */
