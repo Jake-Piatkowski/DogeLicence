@@ -157,6 +157,30 @@ p {
 
 /* END - Main */
 
+/* BEGIN - About */
+
+.container div.main  table.qna tr {
+	
+	vertical-align: top;
+}
+
+.container div.main  table.qna tr.question {
+	
+	font-weight: bolder;
+}
+
+.container div.main  table.qna tr.answer{
+	
+	font-style: italic;
+}
+
+.container div.main  table.qna tr.table_spacer{
+	
+	height: 10px;
+}
+
+/* END - About */
+
 /* BEGIN - Footer */
 
 .container .pre_footer {
