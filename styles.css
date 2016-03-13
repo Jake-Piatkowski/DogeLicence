@@ -29,6 +29,8 @@ p {
 	background-color: #ffffff;
 }
 
+/* BEGIN - Menu */
+
 .container div.pre_menu {
 	
 	padding-top: 3px;
@@ -111,6 +113,10 @@ p {
 	}
 }
 
+/* END - Menu */
+
+/* BEGIN - Main */
+
 .container div.main {
 	
 	background-color: #d9f2d9;
@@ -133,6 +139,10 @@ p {
 	font-family: verdana;
 	font-size: 18px;
 }
+
+/* END - Main */
+
+/* BEGIN - Footer */
 
 .container .pre_footer {
 	
@@ -158,3 +168,5 @@ p {
 	font-family: verdana;
 	font-size: 10px;
 }
+
+/* END - Footer */
