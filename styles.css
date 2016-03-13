@@ -144,6 +144,9 @@ p {
 	
 	margin: 0;
 	width: 600px;
+	background: #eeeeee;
+	border: 1px solid #cecece;
+	padding: 10px;
 }
 
 .container  div.main pre.licence_content ol {
