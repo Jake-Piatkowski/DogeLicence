@@ -140,19 +140,26 @@ p {
 	font-size: 18px;
 }
 
-.container  div.main pre.licence_content {
+.container  div.main div.licence_content {
 	
 	margin: 0;
 	width: 600px;
 	background: #eeeeee;
 	border: 1px solid #cecece;
 	padding: 10px;
+	font-family: monospace;
 }
 
-.container  div.main pre.licence_content ol {
+.container  div.main div.licence_content ol {
 	
 	padding: 0;
 	margin: 0;
+	margin-left: 30px;
+}
+
+.container  div.main div.licence_content li:not(:last-child) {
+	
+    margin-bottom: 5px;
 }
 
 /* END - Main */
